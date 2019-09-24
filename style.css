@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+header {
+    text-align: center;
+}
+
+h2{
+    margin-left: 5%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 400px;
+    height: 220px;
+    background-color: white;
+    padding: 10px;
+}
+
+#password {
+    margin-left: 15%;  
+    border: dotted gray 1px;
+}
+
+#generate {
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+#copy {
+    float: right;
+    margin-right: 13%;
+    margin-top: 5%;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: white;
+
+}
+
+
