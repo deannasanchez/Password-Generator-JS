@@ -23,16 +23,16 @@
 
                 <div class="content">
                     <h2>Generate a Password</h2>
-                    <textarea id="password" 
-                    placeholder="Your Secure Password">
-                    </textarea>
-                    <br>
-                    <div id="slider"></div>
-                    
-                    <button id="generate">
+
+                    <input type="text" id="password" name="pass" placeholder="Your Secure Password">
+
+                    <input type="range" id="myRange" name="slider" min="7" max="127" value="10" >
+
+                    <button id="generate" onclick="genpassword();">
                         Generate Password
                     </button>
-                    <button id="copy" onclick="clipboard()">
+
+                    <button id="copy" onclick="clipboard();">
                         Copy to Clipboard
                     </button>
                 </div>

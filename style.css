@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(212, 253, 246);
 }
 
 header {
@@ -16,23 +16,21 @@ header {
 .content {
     background-color: white;
     padding: 20px;
-    border: rgb(190, 190, 190) 4px;
+    border: rgb(168, 168, 168) 4px;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#slider {
-    width: 100%;
-    height: 25px;
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-}
-
 #password {
     border: dashed gray 1px;
     width: 100%;
+    margin-top: 10px;
+}
+
+#myRange {
+    width: 100%;
+    height: 25px;
 }
 
 #generate {
@@ -40,14 +38,14 @@ header {
     border-radius: 10px;
     background-color: rgb(226, 137, 196);
     color: white;
-    border-color: white;
-    margin-top: 10px;
+    border-color: rgb(226, 137, 196);
+    margin: 10px 0 10px 0;
 }
 
 #copy {
     padding: 6px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
 }
 
 

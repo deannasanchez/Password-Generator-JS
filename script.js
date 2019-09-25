@@ -1,20 +1,19 @@
-var alphnum = ("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&'()*+,-./:;<=>?@[]^_`{|}~");
-var randomIndex = Math.floor(Math.random() * alphnum.length);
-      console.log("random index: ", randomIndex);
-      console.log("random item: ", alphnum[randomIndex]);
+var plength = document.getElementById("myRange").value;
+//var defaultLength = plength.defaultvalue;
+//var pickLength = plength.value;
 
-var alphnum = ("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&'()*+,-./:;<=>?@[]^_`{|}~");
-var stringNum = 8;
-var password = "";
+var alphnum = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+var newpassword = "";
 
-    
- 
 
-function generatePass(){
-    
-    
-    for(var i = 0; i <= stringNum; i++){
-        
+function genpassword(){
+
+    for(var i = 0; i <= plength; i++){
+        newpassword = newpassword + alphnum.charAt(Math.floor(Math.random() * Math.floor(alphnum.length)));
     }
 
+    document.getElementById("password").value = newpassword;
 }
+
+//document.getElementById("myRange").oninput;
+    
