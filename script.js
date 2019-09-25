@@ -9,7 +9,7 @@ var newpassword = "";
 function genpassword(){
 
     for(var i = 0; i <= plength; i++){
-        newpassword = newpassword + alphnum.charAt(Math.floor(Math.random() * Math.floor(alphnum.length)));
+        newpassword = newpassword + alphnum.charAt(Math.floor(Math.random() * Math.floor(alphnum.length - 1)));
     }
 
     document.getElementById("password").value = newpassword;
