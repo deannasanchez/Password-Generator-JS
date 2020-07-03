@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(212, 253, 246);
+    background-color: rgb(202, 202, 202);
 }
 
 header {
@@ -36,9 +36,9 @@ header {
 #generate {
     padding: 6px;
     border-radius: 10px;
-    background-color: rgb(226, 137, 196);
+    background-color: rgb(139, 188, 252);
     color: white;
-    border-color: rgb(226, 137, 196);
+    border-color: rgb(139, 188, 252);
     margin: 10px 0 10px 0;
 }
 

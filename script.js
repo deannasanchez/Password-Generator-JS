@@ -15,5 +15,13 @@ function genpassword(){
     document.getElementById("password").value = newpassword;
 }
 
+function clipboard() {
+    var copyText = document.getElementById("password");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied the text: " + copyText.value);
+  }
+
 //document.getElementById("myRange").oninput;
     
