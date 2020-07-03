@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(202, 202, 202);
+}
+
+header {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    border: rgb(168, 168, 168) 4px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#password {
+    border: dashed gray 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#myRange {
+    width: 100%;
+    height: 25px;
+}
+
+#generate {
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgb(139, 188, 252);
+    color: white;
+    border-color: rgb(139, 188, 252);
+    margin: 10px 0 10px 0;
+}
+
+#copy {
+    padding: 6px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+}
+
+
